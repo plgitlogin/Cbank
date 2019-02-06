@@ -6,7 +6,7 @@ author=Nicolas Borie
 name=Moyenne des éléments d'un tableaux
 title=Moyenne des éléments d'un tableaux
 tag=array
-template=/template/autograderC
+template=/template/autograderC.pl
 
 text==
 Écrire une fonction C **average_array** qui prend en argument un
@@ -77,3 +77,4 @@ for k in range(2):
 
 graderII(tests)
 ==
+

@@ -6,7 +6,7 @@ author=Nicolas Borie
 name=Afficher le contenu d'un tableau
 title=Afficher le contenu d'un tableau
 tag=output|array
-template=/template/autograderC
+template=/template/autograderC.pl
 
 text==
 Écrire une fonction qui affiche le contenu d'un tableau C. Cette
@@ -58,3 +58,4 @@ from graderC import graderI
 tests = [["Exécution simple", "", "", "[6, 2, 3, 7, 7, 9, 2]\n"]]
 graderI(tests)
 ==
+
